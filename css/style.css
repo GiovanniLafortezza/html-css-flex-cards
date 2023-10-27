@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color:black;
+    margin:30px 210px auto 210px;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+   
+}
+
+h1 {
+    color: rgb(229,49,112)
+}
+
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap:40px 30px;
+    flex-wrap:wrap;
+}
+
+.container-names {
+    display: flex;
+    width:31%;
+    height: 100px;
+    background-color: rgb(15,14,23);
+    color:white;
+    box-shadow: 10px 10px 5px lightblue;
+    
+}
+
+.text {
+    display:flex;
+    flex-direction:column;
+    gap: 8px;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.gmail {
+    color:rgb(13, 203, 197);
+
+}
+
